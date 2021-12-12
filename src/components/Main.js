@@ -39,13 +39,13 @@ const Main = ({ selectedPunk, punkListData }) => {
             <div className="ownerDetails">
               <div className="ownerNameAndHandle">
                 <div>{activePunk.owner.address}</div>
-                <div className="ownerHandle">@Kanishak_chaurasia</div>
+                <div className="ownerHandle" >@Kanishak_chaurasia</div>
               </div>
               <div className="ownerLink">
-                <img src={instagramLogo} alt="" />
+                <a rel='linl' href="https://www.instagram.com/kanishak_chaurasia/" ><img  src={instagramLogo} alt="" /></a>
               </div>
               <div className="ownerLink">
-                <img src={twitterLogo} alt="" />
+              <a rel='link' href="https://twitter.com/KanishkChauras4" ><img src={twitterLogo} alt="" /></a>
               </div>
               <div className="ownerLink">
                 <img src={moreIcon} alt="" />

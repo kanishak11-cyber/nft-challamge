@@ -184,7 +184,15 @@
     color: #00eb00;
   }
   
-  .ownerLink {
+  .ownerLink >a>img{
+    padding: 12px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    margin: 0 0 0 10px;
+  }
+  .ownerLink >img{
     padding: 12px;
     border-radius: 50px;
     height: 50px;
@@ -193,7 +201,3 @@
     margin: 0 0 0 10px;
   }
   
-  .ownerLink > img {
-    height: 100%;
-    width: 100%;
-  }
